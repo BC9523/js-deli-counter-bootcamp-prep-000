@@ -1,7 +1,6 @@
-
+  var number = 0;
 function takeANumber(arrayLine){
-
-  number ++;
+number ++;
   arrayLine.push(number);
   return `Now serving customer ${number}`;
   
