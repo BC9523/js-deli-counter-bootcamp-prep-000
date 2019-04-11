@@ -1,7 +1,7 @@
-function takeANumber(arrayLine, name){
-  var newPosition = arrayLine.length + 1;
-  arrayLine.push(name);
-  return `Welcome, ${name}. You are number ${newPosition} in line.`;
+function takeANumber(arrayLine){
+  var number = 1;
+  arrayLine.push(number);
+  return `Now serving customer ${number}`;
   
 }
 function nowServing(arrayLine){
